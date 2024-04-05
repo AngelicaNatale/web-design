@@ -1,0 +1,243 @@
+body{
+    background-color:rgb(3, 3, 3);
+    font-family:.kanit-thin {
+        font-family: "Kanit", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+      }
+      
+      .kanit-thin-italic {
+        font-family: "Kanit", sans-serif;
+        font-weight: 100;
+        font-style: italic;
+      }
+      
+      .kanit-extralight {
+        font-family: "Kanit", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+      }
+      
+      .kanit-extralight-italic {
+        font-family: "Kanit", sans-serif;
+        font-weight: 200;
+        font-style: italic;
+      }
+      
+      .kanit-light {
+        font-family: "Kanit", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+      
+      .kanit-light-italic {
+        font-family: "Kanit", sans-serif;
+        font-weight: 300;
+        font-style: italic;
+      }
+      
+      .kanit-regular {
+        font-family: "Kanit", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .kanit-regular-italic {
+        font-family: "Kanit", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+      
+      .kanit-medium {
+        font-family: "Kanit", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+      
+      .kanit-medium-italic {
+        font-family: "Kanit", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+      }
+      
+      .kanit-semibold {
+        font-family: "Kanit", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+      }
+      
+      .kanit-semibold-italic {
+        font-family: "Kanit", sans-serif;
+        font-weight: 600;
+        font-style: italic;
+      }
+      
+      .kanit-bold {
+        font-family: "Kanit", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+      .kanit-bold-italic {
+        font-family: "Kanit", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+      }
+      
+      .kanit-extrabold {
+        font-family: "Kanit", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+      }
+      
+      .kanit-extrabold-italic {
+        font-family: "Kanit", sans-serif;
+        font-weight: 800;
+        font-style: italic;
+      }
+      
+      .kanit-black {
+        font-family: "Kanit", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+      }
+      
+      .kanit-black-italic {
+        font-family: "Kanit", sans-serif;
+        font-weight: 900;
+        font-style: italic;
+      }
+      
+    margin: 0;
+}
+
+img {
+   max-width: 100%;
+}
+
+header {
+    max-width: 1100px;
+    background-color:#DBFF00;
+    margin: auto;
+    justify-content: center;
+    padding: 0 16px;
+}
+
+header nav ul {
+    margin: auto;
+    padding:auto;
+    list-style: none;
+    display: flex;
+    gap: 16;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:white;
+}
+
+header nav a:hover {
+    color:black;
+   text-decoration:underline;
+}
+
+section.info {
+    background-color:rgb(5, 5, 5);
+    padding: 48px 16px;
+}
+
+section.info h1 {
+    margin: 0%;
+    color: ghostwhite;
+    font-weight: normal;
+    text-align: center;
+    font-size: 50px;
+}
+
+section.card {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax (250px, 1fr));
+    max-width: 1100px;
+    margin: 48px;
+    gap: 16px;
+    padding: 0 16px;
+
+}
+
+section.card h2, section.card p {
+    margin: 0;
+    padding: 0%;
+}
+
+section.card img {
+    height: 500px;
+    width:500px;
+    border-radius: 8px 8px 8px 8px;
+}
+
+section.card h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+section.card p {
+    font-size: 18px;
+    color: white;
+}
+
+footer{
+    max-width: auto;
+    background-color:#DBFF00;
+    margin: auto;
+    justify-content:center;
+}
+ 
+footer p {
+    justify-content:baseline;
+}
+
+@media (max-width:600px) {
+    section.info h1 {
+        font-size: 45px;
+    }
+
+    header {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    section.card div.item {
+        display: flex;
+        flex-direction: row;
+    }
+    section.card img {
+        height: 150px;
+        width: 150px;
+        border-radius: 8px 8px 8px 8px ;
+    }
+}
+       section.line {
+        max-width: auto;
+        margin: auto;
+        justify-content:center;
+        padding: auto
+
+       }
+
+#img {
+    float: left;
+}
+
+#paragrafo1 { 
+    float:inline-end;
+}
+
+#paragrafi {
+    float: right;
+}
+
+.p1 {
+    position:absolute
+    right: 0
+    margin:auto
+    
+}
